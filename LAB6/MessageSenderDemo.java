@@ -32,7 +32,7 @@ class SenderThread extends Thread {
     }
 }
 
-public class MessageSender {
+public class MessageSenderDemo {
     public static void main(String[] args) {
         MessageSender sender = new MessageSender();
 
