@@ -1,3 +1,12 @@
+// Exercise 2: Password Strength Check
+// Problem:
+// Create a program that asks the user to enter a password. If the password length is less than 6
+// characters, throw a custom exception called WeakPasswordException with a message
+// &quot;Password too short! Must be at least 6 characters.&quot;.
+// Expected Behavior:
+//  Input: &quot;abc&quot; → Output: Error: Password too short! Must be at least 6
+// characters.
+//  Input: &quot;abcdef&quot; → Output: Password accepted.
 import java.util.Scanner;
 
 // Custom Exception Class
