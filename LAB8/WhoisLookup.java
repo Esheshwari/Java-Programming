@@ -9,7 +9,7 @@ import java.net.*;
 
 public class WhoisLookup {
     public static void main(String[] args) {
-        try (Socket socket = new Socket("whois.internic.net", 43);
+        try (Socket socket = new Socket("whois.iana.org", 43);
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
              BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
              BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in))) {
@@ -28,3 +28,5 @@ public class WhoisLookup {
         }
     }
 }
+
+//type ping whois.internic.net in terminal
